@@ -1,0 +1,17 @@
+.feed-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .photo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }

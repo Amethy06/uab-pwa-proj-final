@@ -1,0 +1,82 @@
+.photo-card {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    color: white;
+    text-align: left;
+  }
+  
+  .photo {
+    width: 100%;
+    border-radius: 5px;
+    height:max-content;
+  }
+  
+  .photo-info {
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 10px;
+  }
+  
+  .photo-actions {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .comment-section {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .comment-section input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+
+  }
+  
+  .comment-section button {
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  #icon {
+    width: 14px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+
+#actions-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#actions-button:hover #icon {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+#actions-button.liked #icon {
+  filter: brightness(1.4); 
+}
+
+#send {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#send:hover {
+  background-color: #0056b3;
+}
